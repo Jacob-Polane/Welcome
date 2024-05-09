@@ -21,7 +21,7 @@
     }
     h1 {
         text-align: center;
-        color: #d32f2f;
+        color: navy;
     }
     p {
         line-height: 1.6;
@@ -32,28 +32,95 @@
         text-align: right;
         font-style: italic;
         color: #555;
+        margin-top: 30px;
     }
     img{
         width:100%;
+    }
+
+    .Ingredients{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .cause{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        list-style: none;
+        line-height: 30px;
     }
 </style>
 </head>
 <body>
 
 <div class="container">
-    <h1>Welcome to Skin Solutions</h1>
+    <h1>Skin Solutions</h1>
     <div>
         <img src="./skin.jpg">
         <p>
-            <h3 style="text-align: center;">Having Dry Skin?</h3>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-            Temporibus quasi ea cum aperiam modi quisquam, dolorem, vitae fugit aut eum expedita
-             amet eligendi neque eaque labore! Necessitatibus quis assumenda quia.
+            <h3 style="text-align: center;color:steelblue;">Having Dry Skin?</h3>
+            <hr/>
+            Discover the secret to radiant skin with Skin Solutions.
+             Our carefully crafted skincare products blend science and nature to deliver visible results.
+              Explore our collection today and unlock the beauty within.
 
         </p>
+        <br/>
+        <p>
+            <h3 style="text-align: center;color:steelblue;">What is the Product?</h3>
+            <hr/>
+            Experience the ultimate in skincare versatility with our moisturizing cream.
+             Our products are expertly formulated to cater to all skin types, delivering unparalleled results.
+              Achieve a radiant, glowing complexion that transcends skin types with our skin solutions.
+
+        </p>
+        <br/>
+        <p>
+            <h3 style="text-align: center;color:steelblue;">Ingredients?</h3>
+            <hr/>
+            <ul class="Ingredients">
+                <div>
+                    <li> Distilled water</li>
+                    <li>Almond Oil</li>
+                    <li>Presevative</li>
+                    <li>Antioxidant </li>
+                </div>
+                <div>
+                    <li>Emulisifier wax</li>
+                    <li>Honey</li>
+                    <li>Shea butter</li>
+                </div>
+            </ul>
+
+        </p>
+        <br/>
+
+        <p>
+            <h3 style="text-align: center;color:rgb(209, 165, 20);">Common Causes of Dry Skin?</h3>
+            <hr/>
+            <ul class="cause">
+                <div>
+                    <li > Emotional Stress</li>
+                    <li> Dietary Reasons</li>
+                    <li>Genetics</li>
+                    <li>Smoking </li>
+                </div>
+                <div>
+                    <li> Insufficient Sleep</li>
+                    <li>Aging</li>
+                    <li>Dry hydration</li>
+                    <li>Skin Conditions</li>
+                </div>
+            </ul>
+
+        </p>
+        <br/>
+        <img style="border-radius: 10px;" src="skin2.jpg" height="300"/>
     </div>
     
-    <div class="signature">Malunga Mahloko</div>
+    <div class="signature">Author: Malunga Mahloko (Science Fair)</div>
 </div>
 
 </body>
