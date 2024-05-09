@@ -29,7 +29,7 @@
         margin-bottom: 20px;
     }
     .signature {
-        text-align: right;
+        text-align: center;
         font-style: italic;
         color: #555;
         margin-top: 30px;
@@ -51,6 +51,21 @@
         list-style: none;
         line-height: 30px;
     }
+
+    .image{
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        margin-left: 100px;
+    }
+
+    .footer{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        margin-top: 10px;;
+    }
 </style>
 </head>
 <body>
@@ -60,7 +75,7 @@
     <div>
         <img src="./skin.jpg">
         <p>
-            <h3 style="text-align: center;color:steelblue;">Having Dry Skin?</h3>
+            <h5 style="text-align: center;color:steelblue;">Having Dry Skin?</h5>
             <hr/>
             Discover the secret to radiant skin with Skin Solutions.
              Our carefully crafted skincare products blend science and nature to deliver visible results.
@@ -119,8 +134,18 @@
         <br/>
         <img style="border-radius: 10px;" src="skin2.jpg" height="300"/>
     </div>
+    <div class="footer">
+
+        <hr style="background-color: red;"/>
+        <hr/>
+        
+        <img class="image" src="malunga.jpg">
+        
+        
+        <h3 class="signature">Malunga Mahloko (Science Fair)</h3>
+        
+    </div>
     
-    <div class="signature">Author: Malunga Mahloko (Science Fair)</div>
 </div>
 
 </body>
